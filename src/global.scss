@@ -1,0 +1,97 @@
+$primary: #370260;
+$secondary: #ff9016;
+
+body,
+html {
+  margin: 0;
+  height: 100%;
+  background: #f7f7f7;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+$primary: #370260;
+$secondary: #ff9016;
+
+#app {
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+#nav {
+  padding: 15px;
+  text-align: right;
+  font-size: 18px;
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: $primary;
+    &.router-link-exact-active {
+      color: $secondary;
+    }
+    padding-right: 80px;
+  }
+}
+.banner {
+  background-color: #370260;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr;
+  grid-column-gap: 60px;
+  .logo {
+    padding-top: 30px;
+    width: 250px;
+  }
+
+  h3 {
+    color: #fff;
+    padding-top: 55px;
+    font-size: 19px;
+  }
+  span {
+    color: #ff9016;
+  }
+
+  h2 {
+    margin-top: -100px;
+    margin-left: 90px;
+    color: #fff;
+  }
+
+  img {
+    margin-bottom: -40px;
+  }
+}
+
+.main-content {
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr;
+  grid-column-gap: 50px;
+  text-align: justify;
+  line-height: 1.6em;
+
+  span {
+    color: #370260;
+    font-weight: bold;
+  }
+
+  .quote {
+    padding-top: 90px;
+    font-style: italic;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .left {
+    font-size: 100px;
+  }
+
+  .column2 {
+    padding-top: 40px;
+  }
+}
