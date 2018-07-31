@@ -95,3 +95,12 @@ $secondary: #ff9016;
     padding-top: 40px;
   }
 }
+.dot {
+  margin-top: 130px !important;
+  margin-left: 100px;
+  height: 250px;
+  width: 250px;
+  background-color: $primary;
+  border-radius: 50%;
+  display: inline-block;
+}
